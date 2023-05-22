@@ -1,0 +1,24 @@
+form {
+height: 500;
+width: 500;
+    background-color: white;
+}
+body{
+    background-image: linear-gradient(to right,green,blue);
+    background-image: url('12.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+h1 {
+   
+    color:white;
+}
+table {
+    background-color: white;
+}
+div {
+margin-left: 40%;
+text-align: center;
+
+}

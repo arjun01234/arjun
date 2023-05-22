@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+    form {
+height: 500;
+width: 500;
+    background-color: white;
+}
+body{
+    background-image: linear-gradient(to right,green,blue);
+    background-image: url('12.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+h1 {
+   
+    color:white;
+}
+
+</style>
+</head>
+
+<body>
+    <h1 align="center">Student registration Form</h1>
+
+    <div class="">
+      
+         <div class="row">
+            <div class="col-md-2 ">
+
+            </div>
+
+
+            <div class="col-md-4">
+                
+                 <form action="" method="POST">
+                    <div>
+                        <label for="exampleInputEmail1" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="n1" placeholder=" First Name" size="40">
+
+                    </div>
+                    <div>
+                        <label for="exampleInputEmail1" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="n2"placeholder=" Last Name">
+
+                    </div>
+                    
+                    <div>
+                        <label for="exampleInputPassword1" class="form-label">email</label>
+                        <input type="email"class="form-control" id="n3">
+                    </div>
+                
+                    <div>
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password"class="form-control" id="n6">
+                    </div>
+                
+                    <button type="submit"onclick="return myFunction()"  class="btn btn-primary">Submit</button>
+                </form> 
+            </div>
+
+
+
+            <div class="col-md-4">
+               
+                <img src="12.jpg" alt=""  height="500" width="500"> 
+            </div>
+
+
+
+
+
+
+            <div class="col-md-2">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+           
+            var exampleInputEmail1 = document.getElementById("n1").value;
+        if (exampleInputEmail1 == "") {
+          alert(" First Name must be filled out");
+          return false;
+        }
+            alert("do you want submit")
+            var exampleInputEmail3 = document.getElementById("n3").value;
+            if (exampleInputEmail3 == "") {
+              alert(" Enter email");
+              return false;
+            }
+           
+            var exampleInputEmail5 = document.getElementById("n6").value;
+            if (exampleInputEmail5 == "") {
+              alert(" Enter a password");
+              return false;
+            }
+        
+           
+          } 
+         
+          
+    </script>
+
+
+
+    
+</body>
+
+</html>
